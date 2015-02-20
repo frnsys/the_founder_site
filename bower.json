@@ -1,0 +1,10 @@
+{
+  "name": "the-founder",
+  "version": "0.0.1",
+  "dependencies": {
+    "requirejs": "latest",
+    "modernizr": "latest",
+    "colorscroll": "https://github.com/hendriklammers/jquery-colorscroll.git"
+  }
+}
+

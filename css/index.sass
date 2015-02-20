@@ -1,0 +1,79 @@
+/* ==========================================
+     Config
+     ========================================== */
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400|Inconsolata)
+
+$primary-color: #004b65
+$secondary-color: #ee4e22
+$background-color: #f4f4ef
+$error-color: #DD4343
+$warning-color: #E2E942
+$success-color: #26CA7B
+$primary-type: "Inconsolata", sans-serif
+$selection-background: #222
+
+@import "core/core"
+
+/* ==========================================
+     Extensions
+     ========================================== */
+// Enable or disable here.
+//@import "exts/video"
+
+
+/* ==========================================
+     Modules
+     ========================================== */
+
+// @import "modules/my_module"
+
+
+/* ==========================================
+     Your Styles
+     ========================================== */
+
+html, body
+    font-family: $primary-type
+
+section
+    padding: 4em
+    height: 100vh
+    &:nth-child(even)
+        .info
+            float: left
+        figure
+            float: right
+    &:nth-child(odd)
+        .info
+            float: right
+        figure
+            float: left
+
+.info
+    width: 20em
+
+.info, figure
+    position: relative
+    top: 50%
+    -webkit-transform: translateY(-50%)
+    -ms-transform: translateY(-50%)
+    transform: translateY(-50%)
+
+h1
+    line-height: 1
+    font-size: 5em
+h6
+    color: rgba(0,0,0,0.4)
+
+h1,h2,h3,h4,h5,h6
+    font-family: "Montserrat", sans-serif
+    font-weight: normal
+    margin: 0
+
+footer
+    font-family: "Montserrat", sans-serif
+    color: #464646
+    background: #232323
+    text-align: center
+    padding: 2em
+    font-size: 0.75em
