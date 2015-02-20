@@ -6,3 +6,5 @@ fontcustom
 index.css
 *.swp
 js/vendor/bower/**/*
+*.html
+*.map

@@ -3,11 +3,11 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Francis Tseng -- Design + Dev -- @frnsys
 
 # THANKS
 
-    <name>
+    Public Science
 
 # TECHNOLOGY COLOPHON
 
