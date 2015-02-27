@@ -1,0 +1,6 @@
+export settings
+
+32 gif dithered
+transparency set to dithered
+
+420x420 size gif

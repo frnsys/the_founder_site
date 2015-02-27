@@ -35,29 +35,17 @@ $selection-background: #222
 html, body
     font-family: $primary-type
 
-section
-    padding: 4em
-    height: 100vh
-    &:nth-child(even)
-        .info
-            float: left
-        figure
-            float: right
-    &:nth-child(odd)
-        .info
-            float: right
-        figure
-            float: left
 
 .info
     width: 20em
+    max-width: 100%
 
-.info, figure
-    position: relative
-    top: 50%
-    -webkit-transform: translateY(-50%)
-    -ms-transform: translateY(-50%)
-    transform: translateY(-50%)
+figure
+    text-align: center
+    li
+        vertical-align: middle !important
+figcaption
+    color: rgba(0,0,0,0.5)
 
 h1
     line-height: 1
@@ -77,3 +65,50 @@ footer
     text-align: center
     padding: 2em
     font-size: 0.75em
+
+    a, a:visited
+        color: #C8FAFD
+        text-decoration: underline
+
+@media only screen and (min-width: 1080px)
+    section
+        position: relative
+        &:nth-child(even)
+            .info
+                float: left
+            figure
+                padding-left: 34em
+        &:nth-child(odd)
+            .info
+                float: right
+            figure
+                padding-right: 34em
+    figure
+        position: absolute
+        width: 100%
+        left: 0
+        padding: 0 4em
+
+@media only screen and (min-width: 720px)
+    section
+        height: 100vh
+        padding: 4em
+    .info, figure, .notice
+        position: relative
+        top: 50%
+        -webkit-transform: translateY(-50%)
+        -ms-transform: translateY(-50%)
+        transform: translateY(-50%)
+
+@media only screen and (max-width: 1080px)
+    figure
+        margin-top: 6em
+
+@media only screen and (max-width: 720px)
+    section
+        min-height: 100vh
+        padding: 2em
+    h1
+        font-size: 3em
+    .notice
+        margin-top: 8em

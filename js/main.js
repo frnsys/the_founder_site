@@ -8,10 +8,15 @@ require(['config'], function() {
     ], function($, ø) {
         function setup_colors() {
             var raw_colors = [
-                '#fff8ac',
+                '#e4e4e4',
                 '#c5fafe',
-                '#e3c7ff',
+                '#fff8ac',
+                '#ffb9ad',
+                '#A77BFA',
+                '#7DC7F6',
+                '#B7CEF8',
                 '#c7ffe7',
+                '#e4e4e4',
             ];
 
             var colors = [];
