@@ -19,7 +19,7 @@ require(['config'], function() {
                 '#e4e4e4',
             ];
             if ($(window).width() <= 480) {
-                raw_colors = ['#C7FEE6'];
+                raw_colors = ['#C7F8FE'];
             }
 
             var colors = [];
