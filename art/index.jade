@@ -1,0 +1,168 @@
+include ../inc/head
+
+
+mixin art(name, title)
+    li
+        img(src="/assets/art/"+name+".png")
+        h6= title
+
+div.art
+    h2 Product Types
+    ul.list__horizontal__center
+        +art("ad", "Ad")
+        +art("ai", "AI")
+        +art("analytics", "Analytics")
+        +art("android", "Android")
+        +art("appliance", "Appliance")
+        +art("celebrity", "Celebrity")
+        +art("cognitive", "Cognitive")
+        +art("credit", "Credit")
+        +art("defense", "Defense")
+        +art("drugs", "Drug")
+        +art("ecommerce", "E-Commerce")
+        +art("entertainment", "Entertainment")
+        +art("genetics", "Genetics")
+        +art("implant", "Implant")
+        +art("sensor", "Sensor")
+        +art("smartphone", "Mobile")
+        +art("social_network", "Social Network")
+        +art("space", "Space")
+        +art("synthetic_organism", "Synthetic Organism")
+        +art("virtual_reality", "Virtual Reality")
+
+    h2 Perks
+    ul.list__horizontal__center
+        +art("beer", "Microbrews")
+        +art("bike", "Bike Share")
+        +art("bulletproof", "Butter Coffees")
+        +art("bus", "Bus Shuttles")
+        +art("caretaker_automaton", "Caretaker Automatons")
+        +art("catering", "Catering")
+        +art("cocktail", "Cocktail Happy Hours")
+        +art("coffee", "Coffee")
+        +art("counselor", "Counseling")
+        +art("daycare", "Daycare")
+        +art("dreampod", "Dreampods")
+        +art("egg", "Egg Freezing")
+        +art("gene_therapy", "Gene Therapy")
+        +art("gourmet", "Gourmet Chefs")
+        +art("gym", "Gyms")
+        +art("keg", "Kegs")
+        +art("life_coach", "Life Coaches")
+        +art("massage", "Massages")
+        +art("metro_card", "Metro Cards")
+        +art("neuromorphic_implant", "Neuromorphic Implants")
+        +art("party_hat", "Office Parties")
+        +art("ping_pong", "Ping Pong")
+        +art("retreat", "Corporate Retreats")
+        +art("snacks", "Snacks")
+        +art("soogwei", "Campus Transport")
+        +art("vacation", "Unlimited Vacations")
+        +art("webcam", "Telepresence")
+
+    h2 Special Projects
+    ul.list__horizontal__center
+        +art("cloning_facility", "Cloning Facility")
+        +art("delphi", "Delphi")
+        +art("interstellar_ship", "Interstellar Ship")
+        +art("robotics_facility", "Robotics Facility")
+        +art("mars_colony", "Mars Colony")
+        +art("the_founder_ai", "The Founder AI")
+
+    h2 Product Development
+    ul.list__horizontal__center
+        +art("design", "Design")
+        +art("engineering", "Engineering")
+        +art("marketing", "Marketing")
+        +art("fatigue", "Fatigue")
+        +art("block", "Creative Block")
+        +art("bug", "Bug")
+        +art("outrage", "Outrage")
+
+    h2 Misc
+    ul.list__horizontal__center
+        +art("briefcase", "Recruiting")
+        +art("capitol", "Lobbying")
+        +art("cash", "Acquisitions")
+        +art("megaphone", "Marketing")
+        +art("settings", "Settings")
+        +art("upgrade", "Upgrade")
+        +art("exoplanet", "Exoplanet")
+        +art("fitness_tracker", "Fitness Tracker")
+        +art("smartwatch", "Smartwatch")
+        +art("tablet", "Tablet")
+
+    h2 Technologies
+    ul.list__horizontal__center.art_icons
+        +art("techs/3D-Printing", "3D Printing")
+        +art("techs/Advanced-Psychotropics", "Advanced Psychotropics")
+        +art("techs/Alcubierre-Drive", "Alcubierre Drive")
+        +art("techs/Artificial-Gravity", "Artificial Gravity")
+        +art("techs/Atomic-Assembly", "Atomic Assembly")
+        +art("techs/Big-Data", "Big Data")
+        +art("techs/Brain-Computer-Interfaces", "Brain Computer Interfaces")
+        +art("techs/Cloning", "Cloning")
+        +art("techs/Closed-Ecologies", "Closed Ecologies")
+        +art("techs/Cloud-Computing", "Cloud Computing")
+        +art("techs/Computational-Cognition", "Computational Cognition")
+        +art("techs/Cryonics", "Cryonics")
+        +art("techs/Deep-Neural-Networks", "Deep Neural Networks")
+        +art("techs/Drones", "Drones")
+        +art("techs/Dynamic-Content-Generation", "Dynamic Content Generation")
+        +art("techs/Enhanced-Lasers", "Enhanced Lasers")
+        +art("techs/Field-Manipulation", "Field Manipulation")
+        +art("techs/Genetic-Engineering", "Genetic Engineering")
+        +art("techs/Gestural-Interfaces", "Gestural Interfaces")
+        +art("techs/Improved-Robotics", "Improved Robotics")
+        +art("techs/In-Vitro-Cultivation", "In Vitro Cultivation")
+        +art("techs/Integrated-Electronic-Implants", "Integrated Electronic Implants")
+        +art("techs/Internet-of-Things", "Internet of Things")
+        +art("techs/Machine-Translation", "Machine Translation")
+        +art("techs/Memory-Emulation", "Memory Emulation")
+        +art("techs/Memory-Retrieval", "Memory Retrieval")
+        +art("techs/Metamaterials", "Metamaterials")
+        +art("techs/Meteorlogical-Control", "Meteorlogical Control")
+        +art("techs/Microbrial-Desalination", "Microbrial Desalination")
+        +art("techs/Nanorobotics", "Nanorobotics")
+        +art("techs/Neuromarketing", "Neuromarketing")
+        +art("techs/Neuromorphic-Chips", "Neuromorphic Chips")
+        +art("techs/Nutritive-Engineering", "Nutritive Engineering")
+        +art("techs/Predictive-Analytics", "Predictive Analytics")
+        +art("techs/Quantum-Computing", "Quantum Computing")
+        +art("techs/Synthetic-Biology", "Synthetic Biology")
+        +art("techs/Telomere-Restoration", "Telomere Restoration")
+        +art("techs/The-Blockchain", "The Blockchain")
+        +art("techs/Virtual-Reality", "Virtual Reality")
+        +art("techs/Volumetric-Displays", "Volumetric Displays")
+        +art("techs/Wearables", "Wearables")
+        +art("techs/Whole-Brain-Emulation", "Whole Brain Emulation")
+
+    h2 Recruiting
+    ul.list__horizontal__center.art_icons
+        +art("recruiting/word_of_mouth", "Word of Mouth")
+        +art("recruiting/employee_referral", "Employee Referral")
+        +art("recruiting/job_listing", "Job Listing")
+        +art("recruiting/job_fair", "Job Fair")
+        +art("recruiting/recruiting_firm", "Recruiting Firm")
+        +art("recruiting/conference", "Conference")
+        +art("recruiting/buy_robots", "Buy Robots")
+
+    h2 Promotions
+    ul.list__horizontal__center.art_icons
+        +art("promos/press_release", "Press Release")
+        +art("promos/ad_campaign", "Ad Campaign")
+        +art("promos/commercial", "Commercial")
+        +art("promos/astroturfing", "Astroturfing")
+        +art("promos/brand_partnership", "Brand Partnership")
+        +art("promos/causewashing_campaign", "Causewashing Campaign")
+        +art("promos/product_placement", "Product Placement")
+        +art("promos/dent_talk", "Dent Talk")
+        +art("promos/media_event", "Media Event")
+        +art("promos/music_festival", "Music Festival")
+
+    h2 Unused
+    ul.list__horizontal__center
+        +art("person_front", "Employee Model (not used)")
+        +art("person_angle", "Employee Model (not used)")
+
+    include ../inc/foot
