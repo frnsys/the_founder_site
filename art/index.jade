@@ -1,9 +1,12 @@
 include ../inc/head
 
 
-mixin art(name, title)
+mixin art(name, title, ext)
     li
-        img(src="/assets/art/"+name+".png")
+        if ext
+            img(src="/assets/art/"+name+"."+ext)
+        else
+            img(src="/assets/art/"+name+".png")
         h6= title
 
 div.art
@@ -162,9 +165,9 @@ div.art
 
     h2 Offices
     ul.list__horizontal__center
-        +art("offices/apartment", "Apartment")
-        +art("offices/office", "Office")
-        +art("offices/campus", "Campus")
+        +art("offices/apartment", "Apartment", "jpg")
+        +art("offices/office", "Office", "jpg")
+        +art("offices/campus", "Campus", "jpg")
 
     h2 Unused
     ul.list__horizontal__center
