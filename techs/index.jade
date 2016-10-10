@@ -1,0 +1,58 @@
+include ../inc/head
+
+mixin art(name, title, ext)
+    li
+        if ext
+            img(src="/assets/art/"+name+"."+ext)
+        else
+            img(src="/assets/art/"+name+".png")
+        h6= title
+
+div.art
+    .meta
+        a(href='https://www.kickstarter.com/projects/frnsys/the-founder-a-dystopian-business-simulator').kickstarter Support The Founder on Kickstarter
+
+    h2 Technologies
+    ul.list__horizontal__center.art_icons
+        +art("techs/3D-Printing", "3D Printing")
+        +art("techs/Advanced-Psychotropics", "Advanced Psychotropics")
+        +art("techs/Alcubierre-Drive", "Alcubierre Drive")
+        +art("techs/Artificial-Gravity", "Artificial Gravity")
+        +art("techs/Atomic-Assembly", "Atomic Assembly")
+        +art("techs/Big-Data", "Big Data")
+        +art("techs/Brain-Computer-Interfaces", "Brain Computer Interfaces")
+        +art("techs/Cloning", "Cloning")
+        +art("techs/Closed-Ecologies", "Closed Ecologies")
+        +art("techs/Cloud-Computing", "Cloud Computing")
+        +art("techs/Computational-Cognition", "Computational Cognition")
+        +art("techs/Cryonics", "Cryonics")
+        +art("techs/Deep-Neural-Networks", "Deep Neural Networks")
+        +art("techs/Drones", "Drones")
+        +art("techs/Dynamic-Content-Generation", "Dynamic Content Generation")
+        +art("techs/Enhanced-Lasers", "Enhanced Lasers")
+        +art("techs/Field-Manipulation", "Field Manipulation")
+        +art("techs/Genetic-Engineering", "Genetic Engineering")
+        +art("techs/Gestural-Interfaces", "Gestural Interfaces")
+        +art("techs/Improved-Robotics", "Improved Robotics")
+        +art("techs/In-Vitro-Cultivation", "In Vitro Cultivation")
+        +art("techs/Integrated-Electronic-Implants", "Integrated Electronic Implants")
+        +art("techs/Internet-of-Things", "Internet of Things")
+        +art("techs/Machine-Translation", "Machine Translation")
+        +art("techs/Memory-Emulation", "Memory Emulation")
+        +art("techs/Memory-Retrieval", "Memory Retrieval")
+        +art("techs/Metamaterials", "Metamaterials")
+        +art("techs/Meteorlogical-Control", "Meteorlogical Control")
+        +art("techs/Microbrial-Desalination", "Microbrial Desalination")
+        +art("techs/Nanorobotics", "Nanorobotics")
+        +art("techs/Neuromarketing", "Neuromarketing")
+        +art("techs/Neuromorphic-Chips", "Neuromorphic Chips")
+        +art("techs/Nutritive-Engineering", "Nutritive Engineering")
+        +art("techs/Predictive-Analytics", "Predictive Analytics")
+        +art("techs/Quantum-Computing", "Quantum Computing")
+        +art("techs/Synthetic-Biology", "Synthetic Biology")
+        +art("techs/Telomere-Restoration", "Telomere Restoration")
+        +art("techs/The-Blockchain", "The Blockchain")
+        +art("techs/Virtual-Reality", "Virtual Reality")
+        +art("techs/Volumetric-Displays", "Volumetric Displays")
+        +art("techs/Wearables", "Wearables")
+        +art("techs/Whole-Brain-Emulation", "Whole Brain Emulation")

@@ -9,29 +9,37 @@ mixin art(name, title, ext)
             img(src="/assets/art/"+name+".png")
         h6= title
 
+mixin pt(name, title)
+    li
+        img(src="/assets/product_types/"+name+".gif")
+        h6= title
+
 div.art
     h2 Product Types
-    ul.list__horizontal__center
-        +art("ad", "Ad")
-        +art("ai", "AI")
-        +art("analytics", "Analytics")
-        +art("android", "Android")
-        +art("appliance", "Appliance")
-        +art("celebrity", "Celebrity")
-        +art("cognitive", "Cognitive")
-        +art("credit", "Credit")
-        +art("defense", "Defense")
-        +art("drugs", "Drug")
-        +art("ecommerce", "E-Commerce")
-        +art("entertainment", "Entertainment")
-        +art("genetics", "Genetics")
-        +art("implant", "Implant")
-        +art("sensor", "Sensor")
-        +art("smartphone", "Mobile")
-        +art("social_network", "Social Network")
-        +art("space", "Space")
-        +art("synthetic_organism", "Synthetic Organism")
-        +art("virtual_reality", "Virtual Reality")
+    ul.list__horizontal__center.product_types
+        +pt("ntad", "Ad")
+        +pt("ai", "AI")
+        +pt("analytics", "Analytics")
+        +pt("blockchain", "Blockchain")
+        +pt("celebrity", "Celebrity")
+        +pt("cognitive", "Cognitive")
+        +pt("credit", "Credit")
+        +pt("defense", "Defense")
+        +pt("drug", "Drug")
+        +pt("e_commerce", "E-Commerce")
+        +pt("entertainment", "Entertainment")
+        +pt("gadget", "Gadget")
+        +pt("genetics", "Genetics")
+        +pt("implant", "Implant")
+        +pt("mobile", "Mobile")
+        +pt("robot", "Robot")
+        +pt("logistics", "Logistics")
+        +pt("sharing", "Sharing")
+        +pt("social_network", "Social Network")
+        +pt("space", "Space")
+        +pt("synthetic_organism", "Synthetic Organism")
+        +pt("virtual_reality", "Virtual Reality")
+        +pt("wearable", "Wearable")
 
     h2 Perks
     ul.list__horizontal__center

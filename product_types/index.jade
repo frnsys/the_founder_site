@@ -1,0 +1,32 @@
+include ../inc/head
+
+mixin art(name, title, ext)
+    li
+        img(src="/assets/product_types/"+name+".gif")
+        h6= title
+
+div.art
+    ul.list__horizontal__center.product_types
+        +art("ntad", "Ad")
+        +art("ai", "AI")
+        +art("analytics", "Analytics")
+        +art("blockchain", "Blockchain")
+        +art("celebrity", "Celebrity")
+        +art("cognitive", "Cognitive")
+        +art("credit", "Credit")
+        +art("defense", "Defense")
+        +art("drug", "Drug")
+        +art("e_commerce", "E-Commerce")
+        +art("entertainment", "Entertainment")
+        +art("gadget", "Gadget")
+        +art("genetics", "Genetics")
+        +art("implant", "Implant")
+        +art("mobile", "Mobile")
+        +art("robot", "Robot")
+        +art("logistics", "Logistics")
+        +art("sharing", "Sharing")
+        +art("social_network", "Social Network")
+        +art("space", "Space")
+        +art("synthetic_organism", "Synthetic Organism")
+        +art("virtual_reality", "Virtual Reality")
+        +art("wearable", "Wearable")

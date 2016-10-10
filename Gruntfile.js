@@ -206,6 +206,5 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-bower-requirejs');
     grunt.loadNpmTasks('grunt-requirejs');
     grunt.loadNpmTasks('grunt-text-replace');
-    grunt.loadNpmTasks('grunt-shell');
 
 };
