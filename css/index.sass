@@ -105,6 +105,18 @@ footer
     background: rgb(28, 222, 71)
     color: #fff
 
+.play-now
+    position: absolute
+    right: 1em
+    color: #fff
+    padding: 1em 2em
+    font-size: 2em
+    background: blue
+    &:hover
+        background: #14cc3c
+.small-screen-notice
+    display: none
+
 @media only screen and (min-width: 1080px)
     section
         position: relative
@@ -147,6 +159,13 @@ footer
         font-size: 3em
     .notice
         margin-top: 8em
+    .play-now
+        display: block
+        position: relative
+        margin-top: 3em
+    .small-screen-notice
+        font-size: 0.5em
+        display: block
 
 @media only screen and (max-width: 480px)
     .icons
